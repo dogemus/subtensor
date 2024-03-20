@@ -1794,15 +1794,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "fdlimit"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c4c9e43643f5a3be4ca5b67d26b98031ff9db6806c3440ae32e02e3ceac3f1b"
-dependencies = [
- "libc",
-]
-
-[[package]]
 name = "ff"
 version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1949,14 +1940,14 @@ dependencies = [
  "paste",
  "scale-info",
  "serde",
- "sp-api",
- "sp-application-crypto",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-runtime-interface",
- "sp-std",
- "sp-storage",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "static_assertions",
 ]
 
@@ -1991,18 +1982,18 @@ dependencies = [
  "sc-sysinfo",
  "serde",
  "serde_json",
- "sp-api",
- "sp-blockchain",
- "sp-core",
- "sp-database",
- "sp-externalities",
- "sp-inherents",
- "sp-keystore",
- "sp-runtime",
- "sp-state-machine",
- "sp-std",
- "sp-storage",
- "sp-trie",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-database 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
  "thousands",
 ]
@@ -2017,11 +2008,11 @@ dependencies = [
  "frame-try-runtime",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
- "sp-tracing",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -2045,9 +2036,9 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "serde",
- "sp-core",
- "sp-io",
- "sp-runtime",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-rpc-client",
  "tokio",
 ]
@@ -2069,18 +2060,18 @@ dependencies = [
  "scale-info",
  "serde",
  "smallvec",
- "sp-api",
- "sp-arithmetic",
- "sp-core",
- "sp-core-hashing-proc-macro",
- "sp-inherents",
- "sp-io",
- "sp-runtime",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core-hashing-proc-macro 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-staking",
- "sp-state-machine",
- "sp-std",
- "sp-tracing",
- "sp-weights",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-weights 4.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "tt-call",
 ]
 
@@ -2131,12 +2122,12 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
- "sp-version",
- "sp-weights",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-weights 4.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -2149,9 +2140,9 @@ dependencies = [
  "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -2160,7 +2151,7 @@ version = "4.0.0-dev"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
  "parity-scale-codec",
- "sp-api",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -2170,9 +2161,9 @@ source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c
 dependencies = [
  "frame-support",
  "parity-scale-codec",
- "sp-api",
- "sp-runtime",
- "sp-std",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4191,17 +4182,17 @@ dependencies = [
  "sc-transaction-pool-api",
  "serde",
  "serde_json",
- "sp-api",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-block-builder",
- "sp-blockchain",
- "sp-consensus",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-consensus-aura",
- "sp-core",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-finality-grandpa",
- "sp-inherents",
- "sp-io",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-keyring",
- "sp-runtime",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-timestamp",
  "substrate-build-script-utils",
  "substrate-frame-rpc-system",
@@ -4243,17 +4234,17 @@ dependencies = [
  "scale-info",
  "serde_json",
  "smallvec",
- "sp-api",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-block-builder",
  "sp-consensus-aura",
- "sp-core",
- "sp-inherents",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-offchain",
- "sp-runtime",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-session",
- "sp-std",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-transaction-pool",
- "sp-version",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-wasm-builder",
  "subtensor-custom-rpc-runtime-api",
 ]
@@ -4465,11 +4456,11 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "sp-consensus-aura",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-tracing",
- "sp-weights",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-weights 4.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4482,10 +4473,10 @@ dependencies = [
  "pallet-timestamp",
  "parity-scale-codec",
  "scale-info",
- "sp-application-crypto",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-consensus-aura",
- "sp-runtime",
- "sp-std",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4498,8 +4489,8 @@ dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
  "scale-info",
- "sp-runtime",
- "sp-std",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4513,8 +4504,8 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-runtime",
- "sp-std",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4527,10 +4518,10 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4544,10 +4535,10 @@ dependencies = [
  "pallet-balances",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4563,14 +4554,14 @@ dependencies = [
  "pallet-session",
  "parity-scale-codec",
  "scale-info",
- "sp-application-crypto",
- "sp-core",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-finality-grandpa",
- "sp-io",
- "sp-runtime",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-session",
  "sp-staking",
- "sp-std",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4583,8 +4574,8 @@ dependencies = [
  "parity-scale-codec",
  "safe-mix",
  "scale-info",
- "sp-runtime",
- "sp-std",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4598,10 +4589,10 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4615,9 +4606,9 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4631,10 +4622,10 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4647,10 +4638,10 @@ dependencies = [
  "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4664,10 +4655,10 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-io",
- "sp-runtime",
- "sp-std",
- "sp-weights",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-weights 4.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4682,13 +4673,13 @@ dependencies = [
  "pallet-timestamp",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-io",
- "sp-runtime",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-session",
  "sp-staking",
- "sp-std",
- "sp-trie",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4715,12 +4706,12 @@ dependencies = [
  "serde-tuple-vec-map",
  "serde_bytes",
  "serde_with",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
- "sp-tracing",
- "sp-version",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-fixed",
 ]
 
@@ -4733,9 +4724,9 @@ dependencies = [
  "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4749,10 +4740,10 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-inherents",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-timestamp",
 ]
 
@@ -4766,10 +4757,10 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4780,12 +4771,12 @@ dependencies = [
  "jsonrpsee",
  "pallet-transaction-payment-rpc-runtime-api",
  "parity-scale-codec",
- "sp-api",
- "sp-blockchain",
- "sp-core",
- "sp-rpc",
- "sp-runtime",
- "sp-weights",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-rpc 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-weights 4.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4795,9 +4786,9 @@ source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c
 dependencies = [
  "pallet-transaction-payment",
  "parity-scale-codec",
- "sp-api",
- "sp-runtime",
- "sp-weights",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-weights 4.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -4810,10 +4801,10 @@ dependencies = [
  "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-io",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -5968,8 +5959,8 @@ version = "4.1.0-dev"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
  "log",
- "sp-core",
- "sp-wasm-interface",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-wasm-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -5987,12 +5978,12 @@ dependencies = [
  "sc-proposer-metrics",
  "sc-telemetry",
  "sc-transaction-pool-api",
- "sp-api",
- "sp-blockchain",
- "sp-consensus",
- "sp-core",
- "sp-inherents",
- "sp-runtime",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
 ]
 
@@ -6003,13 +5994,13 @@ source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c
 dependencies = [
  "parity-scale-codec",
  "sc-client-api",
- "sp-api",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-block-builder",
- "sp-blockchain",
- "sp-core",
- "sp-inherents",
- "sp-runtime",
- "sp-state-machine",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -6023,8 +6014,8 @@ dependencies = [
  "sc-telemetry",
  "serde",
  "serde_json",
- "sp-core",
- "sp-runtime",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -6046,7 +6037,6 @@ dependencies = [
  "array-bytes",
  "chrono",
  "clap",
- "fdlimit",
  "futures",
  "libp2p",
  "log",
@@ -6066,13 +6056,13 @@ dependencies = [
  "sc-utils",
  "serde",
  "serde_json",
- "sp-blockchain",
- "sp-core",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-keyring",
- "sp-keystore",
- "sp-panic-handler",
- "sp-runtime",
- "sp-version",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-panic-handler 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
  "tiny-bip39",
  "tokio",
@@ -6091,16 +6081,16 @@ dependencies = [
  "sc-executor",
  "sc-transaction-pool-api",
  "sc-utils",
- "sp-api",
- "sp-blockchain",
- "sp-consensus",
- "sp-core",
- "sp-database",
- "sp-externalities",
- "sp-keystore",
- "sp-runtime",
- "sp-state-machine",
- "sp-storage",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-database 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
 ]
 
@@ -6121,13 +6111,13 @@ dependencies = [
  "sc-client-api",
  "sc-state-db",
  "schnellru",
- "sp-arithmetic",
- "sp-blockchain",
- "sp-core",
- "sp-database",
- "sp-runtime",
- "sp-state-machine",
- "sp-trie",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-database 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -6145,12 +6135,12 @@ dependencies = [
  "sc-client-api",
  "sc-utils",
  "serde",
- "sp-api",
- "sp-blockchain",
- "sp-consensus",
- "sp-core",
- "sp-runtime",
- "sp-state-machine",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
  "thiserror",
 ]
@@ -6169,17 +6159,17 @@ dependencies = [
  "sc-consensus",
  "sc-consensus-slots",
  "sc-telemetry",
- "sp-api",
- "sp-application-crypto",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-block-builder",
- "sp-blockchain",
- "sp-consensus",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-consensus-aura",
  "sp-consensus-slots",
- "sp-core",
- "sp-inherents",
- "sp-keystore",
- "sp-runtime",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
  "thiserror",
 ]
@@ -6197,14 +6187,14 @@ dependencies = [
  "sc-client-api",
  "sc-consensus",
  "sc-telemetry",
- "sp-arithmetic",
- "sp-blockchain",
- "sp-consensus",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-consensus-slots",
- "sp-core",
- "sp-inherents",
- "sp-runtime",
- "sp-state-machine",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -6218,15 +6208,15 @@ dependencies = [
  "sc-executor-common",
  "sc-executor-wasmi",
  "sc-executor-wasmtime",
- "sp-api",
- "sp-core",
- "sp-externalities",
- "sp-io",
- "sp-panic-handler",
- "sp-runtime-interface",
- "sp-trie",
- "sp-version",
- "sp-wasm-interface",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-panic-handler 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-wasm-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "tracing",
  "wasmi",
 ]
@@ -6238,7 +6228,7 @@ source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c
 dependencies = [
  "sc-allocator",
  "sp-maybe-compressed-blob",
- "sp-wasm-interface",
+ "sp-wasm-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
  "wasm-instrument",
  "wasmi",
@@ -6252,8 +6242,8 @@ dependencies = [
  "log",
  "sc-allocator",
  "sc-executor-common",
- "sp-runtime-interface",
- "sp-wasm-interface",
+ "sp-runtime-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-wasm-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "wasmi",
 ]
 
@@ -6270,8 +6260,8 @@ dependencies = [
  "rustix",
  "sc-allocator",
  "sc-executor-common",
- "sp-runtime-interface",
- "sp-wasm-interface",
+ "sp-runtime-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-wasm-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "wasmtime",
 ]
 
@@ -6302,15 +6292,15 @@ dependencies = [
  "sc-telemetry",
  "sc-utils",
  "serde_json",
- "sp-api",
- "sp-application-crypto",
- "sp-arithmetic",
- "sp-blockchain",
- "sp-consensus",
- "sp-core",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-finality-grandpa",
- "sp-keystore",
- "sp-runtime",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
  "thiserror",
 ]
@@ -6326,8 +6316,8 @@ dependencies = [
  "log",
  "sc-client-api",
  "sc-network-common",
- "sp-blockchain",
- "sp-runtime",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -6339,9 +6329,9 @@ dependencies = [
  "async-trait",
  "parking_lot 0.12.1",
  "serde_json",
- "sp-application-crypto",
- "sp-core",
- "sp-keystore",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -6377,11 +6367,11 @@ dependencies = [
  "serde",
  "serde_json",
  "smallvec",
- "sp-arithmetic",
- "sp-blockchain",
- "sp-consensus",
- "sp-core",
- "sp-runtime",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
  "thiserror",
  "unsigned-varint",
@@ -6401,8 +6391,8 @@ dependencies = [
  "prost-build",
  "sc-client-api",
  "sc-network-common",
- "sp-blockchain",
- "sp-runtime",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
  "unsigned-varint",
 ]
@@ -6425,10 +6415,10 @@ dependencies = [
  "sc-peerset",
  "serde",
  "smallvec",
- "sp-blockchain",
- "sp-consensus",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-finality-grandpa",
- "sp-runtime",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
  "thiserror",
 ]
@@ -6446,7 +6436,7 @@ dependencies = [
  "lru 0.8.1",
  "sc-network-common",
  "sc-peerset",
- "sp-runtime",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
  "tracing",
 ]
@@ -6466,9 +6456,9 @@ dependencies = [
  "sc-client-api",
  "sc-network-common",
  "sc-peerset",
- "sp-blockchain",
- "sp-core",
- "sp-runtime",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -6494,12 +6484,12 @@ dependencies = [
  "sc-peerset",
  "sc-utils",
  "smallvec",
- "sp-arithmetic",
- "sp-blockchain",
- "sp-consensus",
- "sp-core",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-finality-grandpa",
- "sp-runtime",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
  "thiserror",
 ]
@@ -6518,8 +6508,8 @@ dependencies = [
  "sc-network-common",
  "sc-peerset",
  "sc-utils",
- "sp-consensus",
- "sp-runtime",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-prometheus-endpoint",
 ]
 
@@ -6545,10 +6535,10 @@ dependencies = [
  "sc-network-common",
  "sc-peerset",
  "sc-utils",
- "sp-api",
- "sp-core",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-offchain",
- "sp-runtime",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "threadpool",
  "tracing",
 ]
@@ -6593,15 +6583,15 @@ dependencies = [
  "sc-transaction-pool-api",
  "sc-utils",
  "serde_json",
- "sp-api",
- "sp-blockchain",
- "sp-core",
- "sp-keystore",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-offchain",
- "sp-rpc",
- "sp-runtime",
+ "sp-rpc 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-session",
- "sp-version",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "tokio",
 ]
 
@@ -6617,10 +6607,10 @@ dependencies = [
  "scale-info",
  "serde",
  "serde_json",
- "sp-core",
- "sp-rpc",
- "sp-runtime",
- "sp-version",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-rpc 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -6656,11 +6646,11 @@ dependencies = [
  "sc-client-api",
  "sc-transaction-pool-api",
  "serde",
- "sp-api",
- "sp-blockchain",
- "sp-core",
- "sp-runtime",
- "sp-version",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
  "tokio-stream",
 ]
@@ -6708,20 +6698,20 @@ dependencies = [
  "sc-utils",
  "serde",
  "serde_json",
- "sp-api",
- "sp-blockchain",
- "sp-consensus",
- "sp-core",
- "sp-externalities",
- "sp-keystore",
- "sp-runtime",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-session",
- "sp-state-machine",
- "sp-storage",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-transaction-pool",
  "sp-transaction-storage-proof",
- "sp-trie",
- "sp-version",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "static_init",
  "substrate-prometheus-endpoint",
  "tempfile",
@@ -6739,7 +6729,7 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "parking_lot 0.12.1",
- "sp-core",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -6753,7 +6743,7 @@ dependencies = [
  "nix 0.26.2",
  "sc-client-db",
  "sc-utils",
- "sp-core",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
  "tokio",
 ]
@@ -6772,9 +6762,9 @@ dependencies = [
  "sc-telemetry",
  "serde",
  "serde_json",
- "sp-core",
- "sp-io",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -6815,12 +6805,12 @@ dependencies = [
  "sc-rpc-server",
  "sc-tracing-proc-macro",
  "serde",
- "sp-api",
- "sp-blockchain",
- "sp-core",
- "sp-rpc",
- "sp-runtime",
- "sp-tracing",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-rpc 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
  "tracing",
  "tracing-log",
@@ -6855,11 +6845,11 @@ dependencies = [
  "sc-transaction-pool-api",
  "sc-utils",
  "serde",
- "sp-api",
- "sp-blockchain",
- "sp-core",
- "sp-runtime",
- "sp-tracing",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-transaction-pool",
  "substrate-prometheus-endpoint",
  "thiserror",
@@ -6874,8 +6864,8 @@ dependencies = [
  "futures",
  "log",
  "serde",
- "sp-blockchain",
- "sp-runtime",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -7354,13 +7344,31 @@ dependencies = [
  "hash-db",
  "log",
  "parity-scale-codec",
- "sp-api-proc-macro",
- "sp-core",
- "sp-runtime",
- "sp-state-machine",
- "sp-std",
- "sp-trie",
- "sp-version",
+ "sp-api-proc-macro 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "thiserror",
+]
+
+[[package]]
+name = "sp-api"
+version = "4.0.0-dev"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "hash-db",
+ "log",
+ "parity-scale-codec",
+ "sp-api-proc-macro 4.0.0-dev (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -7377,6 +7385,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "sp-api-proc-macro"
+version = "4.0.0-dev"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "blake2",
+ "proc-macro-crate",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.107",
+]
+
+[[package]]
 name = "sp-application-crypto"
 version = "7.0.0"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
@@ -7384,9 +7404,22 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core",
- "sp-io",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+]
+
+[[package]]
+name = "sp-application-crypto"
+version = "7.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "parity-scale-codec",
+ "scale-info",
+ "serde",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7399,7 +7432,21 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-std",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "static_assertions",
+]
+
+[[package]]
+name = "sp-arithmetic"
+version = "6.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "integer-sqrt",
+ "num-traits",
+ "parity-scale-codec",
+ "scale-info",
+ "serde",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "static_assertions",
 ]
 
@@ -7409,10 +7456,10 @@ version = "4.0.0-dev"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
  "parity-scale-codec",
- "sp-api",
- "sp-inherents",
- "sp-runtime",
- "sp-std",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7425,11 +7472,29 @@ dependencies = [
  "lru 0.8.1",
  "parity-scale-codec",
  "parking_lot 0.12.1",
- "sp-api",
- "sp-consensus",
- "sp-database",
- "sp-runtime",
- "sp-state-machine",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-database 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "thiserror",
+]
+
+[[package]]
+name = "sp-blockchain"
+version = "4.0.0-dev"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "futures",
+ "log",
+ "lru 0.8.1",
+ "parity-scale-codec",
+ "parking_lot 0.12.1",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-database 4.0.0-dev (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -7442,12 +7507,30 @@ dependencies = [
  "futures",
  "log",
  "parity-scale-codec",
- "sp-core",
- "sp-inherents",
- "sp-runtime",
- "sp-state-machine",
- "sp-std",
- "sp-version",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "thiserror",
+]
+
+[[package]]
+name = "sp-consensus"
+version = "0.10.0-dev"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "async-trait",
+ "futures",
+ "log",
+ "parity-scale-codec",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -7459,13 +7542,13 @@ dependencies = [
  "async-trait",
  "parity-scale-codec",
  "scale-info",
- "sp-api",
- "sp-application-crypto",
- "sp-consensus",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-consensus-slots",
- "sp-inherents",
- "sp-runtime",
- "sp-std",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-timestamp",
 ]
 
@@ -7479,16 +7562,16 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-api",
- "sp-application-crypto",
- "sp-consensus",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-consensus 0.10.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-consensus-slots",
  "sp-consensus-vrf",
- "sp-core",
- "sp-inherents",
- "sp-keystore",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-timestamp",
 ]
 
@@ -7500,7 +7583,7 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-std",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-timestamp",
 ]
 
@@ -7512,9 +7595,9 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "schnorrkel",
- "sp-core",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7547,12 +7630,55 @@ dependencies = [
  "secp256k1",
  "secrecy",
  "serde",
- "sp-core-hashing",
- "sp-debug-derive",
- "sp-externalities",
- "sp-runtime-interface",
- "sp-std",
- "sp-storage",
+ "sp-core-hashing 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-debug-derive 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "ss58-registry",
+ "substrate-bip39",
+ "thiserror",
+ "tiny-bip39",
+ "zeroize",
+]
+
+[[package]]
+name = "sp-core"
+version = "7.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "array-bytes",
+ "base58",
+ "bitflags",
+ "blake2",
+ "bounded-collections",
+ "dyn-clonable",
+ "ed25519-zebra",
+ "futures",
+ "hash-db",
+ "hash256-std-hasher",
+ "impl-serde 0.4.0",
+ "lazy_static",
+ "libsecp256k1",
+ "log",
+ "merlin",
+ "parity-scale-codec",
+ "parking_lot 0.12.1",
+ "primitive-types 0.12.1",
+ "rand 0.8.5",
+ "regex",
+ "scale-info",
+ "schnorrkel",
+ "secp256k1",
+ "secrecy",
+ "serde",
+ "sp-core-hashing 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-debug-derive 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-runtime-interface 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "ss58-registry",
  "substrate-bip39",
  "thiserror",
@@ -7570,7 +7696,21 @@ dependencies = [
  "digest 0.10.6",
  "sha2 0.10.6",
  "sha3",
- "sp-std",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "twox-hash",
+]
+
+[[package]]
+name = "sp-core-hashing"
+version = "5.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "blake2",
+ "byteorder",
+ "digest 0.10.6",
+ "sha2 0.10.6",
+ "sha3",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "twox-hash",
 ]
 
@@ -7581,7 +7721,18 @@ source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c
 dependencies = [
  "proc-macro2",
  "quote",
- "sp-core-hashing",
+ "sp-core-hashing 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "syn 1.0.107",
+]
+
+[[package]]
+name = "sp-core-hashing-proc-macro"
+version = "5.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "sp-core-hashing 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "syn 1.0.107",
 ]
 
@@ -7589,6 +7740,15 @@ dependencies = [
 name = "sp-database"
 version = "4.0.0-dev"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
+dependencies = [
+ "kvdb",
+ "parking_lot 0.12.1",
+]
+
+[[package]]
+name = "sp-database"
+version = "4.0.0-dev"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
 dependencies = [
  "kvdb",
  "parking_lot 0.12.1",
@@ -7605,14 +7765,35 @@ dependencies = [
 ]
 
 [[package]]
+name = "sp-debug-derive"
+version = "5.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 1.0.107",
+]
+
+[[package]]
 name = "sp-externalities"
 version = "0.13.0"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
  "environmental",
  "parity-scale-codec",
- "sp-std",
- "sp-storage",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+]
+
+[[package]]
+name = "sp-externalities"
+version = "0.13.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "environmental",
+ "parity-scale-codec",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7625,12 +7806,12 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-api",
- "sp-application-crypto",
- "sp-core",
- "sp-keystore",
- "sp-runtime",
- "sp-std",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7642,9 +7823,24 @@ dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "thiserror",
+]
+
+[[package]]
+name = "sp-inherents"
+version = "4.0.0-dev"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "async-trait",
+ "impl-trait-for-tuples",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -7661,14 +7857,39 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "secp256k1",
- "sp-core",
- "sp-externalities",
- "sp-keystore",
- "sp-runtime-interface",
- "sp-state-machine",
- "sp-std",
- "sp-tracing",
- "sp-trie",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "tracing",
+ "tracing-core",
+]
+
+[[package]]
+name = "sp-io"
+version = "7.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "bytes",
+ "ed25519",
+ "ed25519-dalek",
+ "futures",
+ "libsecp256k1",
+ "log",
+ "parity-scale-codec",
+ "secp256k1",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-runtime-interface 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "tracing",
  "tracing-core",
 ]
@@ -7679,8 +7900,8 @@ version = "7.0.0"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
  "lazy_static",
- "sp-core",
- "sp-runtime",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "strum",
 ]
 
@@ -7696,8 +7917,24 @@ dependencies = [
  "parking_lot 0.12.1",
  "schnorrkel",
  "serde",
- "sp-core",
- "sp-externalities",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "thiserror",
+]
+
+[[package]]
+name = "sp-keystore"
+version = "0.13.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "async-trait",
+ "futures",
+ "merlin",
+ "parity-scale-codec",
+ "parking_lot 0.12.1",
+ "schnorrkel",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -7715,9 +7952,9 @@ name = "sp-offchain"
 version = "4.0.0-dev"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
- "sp-api",
- "sp-core",
- "sp-runtime",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7731,13 +7968,33 @@ dependencies = [
 ]
 
 [[package]]
+name = "sp-panic-handler"
+version = "5.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "backtrace",
+ "lazy_static",
+ "regex",
+]
+
+[[package]]
 name = "sp-rpc"
 version = "6.0.0"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
  "rustc-hash",
  "serde",
- "sp-core",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+]
+
+[[package]]
+name = "sp-rpc"
+version = "6.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "rustc-hash",
+ "serde",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7754,12 +8011,34 @@ dependencies = [
  "rand 0.8.5",
  "scale-info",
  "serde",
- "sp-application-crypto",
- "sp-arithmetic",
- "sp-core",
- "sp-io",
- "sp-std",
- "sp-weights",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-weights 4.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+]
+
+[[package]]
+name = "sp-runtime"
+version = "7.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "either",
+ "hash256-std-hasher",
+ "impl-trait-for-tuples",
+ "log",
+ "parity-scale-codec",
+ "paste",
+ "rand 0.8.5",
+ "scale-info",
+ "serde",
+ "sp-application-crypto 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-weights 4.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7771,12 +8050,30 @@ dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
  "primitive-types 0.12.1",
- "sp-externalities",
- "sp-runtime-interface-proc-macro",
- "sp-std",
- "sp-storage",
- "sp-tracing",
- "sp-wasm-interface",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime-interface-proc-macro 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-wasm-interface 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "static_assertions",
+]
+
+[[package]]
+name = "sp-runtime-interface"
+version = "7.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "bytes",
+ "impl-trait-for-tuples",
+ "parity-scale-codec",
+ "primitive-types 0.12.1",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-runtime-interface-proc-macro 6.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-storage 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-tracing 6.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-wasm-interface 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "static_assertions",
 ]
 
@@ -7793,17 +8090,29 @@ dependencies = [
 ]
 
 [[package]]
+name = "sp-runtime-interface-proc-macro"
+version = "6.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "Inflector",
+ "proc-macro-crate",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.107",
+]
+
+[[package]]
 name = "sp-session"
 version = "4.0.0-dev"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
  "parity-scale-codec",
  "scale-info",
- "sp-api",
- "sp-core",
- "sp-runtime",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-staking",
- "sp-std",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7813,9 +8122,9 @@ source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c
 dependencies = [
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-runtime",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7829,11 +8138,31 @@ dependencies = [
  "parking_lot 0.12.1",
  "rand 0.8.5",
  "smallvec",
- "sp-core",
- "sp-externalities",
- "sp-panic-handler",
- "sp-std",
- "sp-trie",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-panic-handler 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "thiserror",
+ "tracing",
+]
+
+[[package]]
+name = "sp-state-machine"
+version = "0.13.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "hash-db",
+ "log",
+ "parity-scale-codec",
+ "parking_lot 0.12.1",
+ "rand 0.8.5",
+ "smallvec",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-panic-handler 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "thiserror",
  "tracing",
 ]
@@ -7844,6 +8173,11 @@ version = "5.0.0"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 
 [[package]]
+name = "sp-std"
+version = "5.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+
+[[package]]
 name = "sp-storage"
 version = "7.0.0"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
@@ -7852,8 +8186,21 @@ dependencies = [
  "parity-scale-codec",
  "ref-cast",
  "serde",
- "sp-debug-derive",
- "sp-std",
+ "sp-debug-derive 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+]
+
+[[package]]
+name = "sp-storage"
+version = "7.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "impl-serde 0.4.0",
+ "parity-scale-codec",
+ "ref-cast",
+ "serde",
+ "sp-debug-derive 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7865,9 +8212,9 @@ dependencies = [
  "futures-timer",
  "log",
  "parity-scale-codec",
- "sp-inherents",
- "sp-runtime",
- "sp-std",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -7877,7 +8224,19 @@ version = "6.0.0"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
  "parity-scale-codec",
- "sp-std",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "tracing",
+ "tracing-core",
+ "tracing-subscriber",
+]
+
+[[package]]
+name = "sp-tracing"
+version = "6.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "parity-scale-codec",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "tracing",
  "tracing-core",
  "tracing-subscriber",
@@ -7888,8 +8247,8 @@ name = "sp-transaction-pool"
 version = "4.0.0-dev"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
 dependencies = [
- "sp-api",
- "sp-runtime",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7901,11 +8260,11 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-core",
- "sp-inherents",
- "sp-runtime",
- "sp-std",
- "sp-trie",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-trie 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -7923,8 +8282,31 @@ dependencies = [
  "parking_lot 0.12.1",
  "scale-info",
  "schnellru",
- "sp-core",
- "sp-std",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "thiserror",
+ "tracing",
+ "trie-db",
+ "trie-root",
+]
+
+[[package]]
+name = "sp-trie"
+version = "7.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "ahash 0.8.3",
+ "hash-db",
+ "hashbrown 0.12.3",
+ "lazy_static",
+ "memory-db",
+ "nohash-hasher",
+ "parity-scale-codec",
+ "parking_lot 0.12.1",
+ "scale-info",
+ "schnellru",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "thiserror",
  "tracing",
  "trie-db",
@@ -7941,10 +8323,27 @@ dependencies = [
  "parity-wasm",
  "scale-info",
  "serde",
- "sp-core-hashing-proc-macro",
- "sp-runtime",
- "sp-std",
- "sp-version-proc-macro",
+ "sp-core-hashing-proc-macro 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-version-proc-macro 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "thiserror",
+]
+
+[[package]]
+name = "sp-version"
+version = "5.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "impl-serde 0.4.0",
+ "parity-scale-codec",
+ "parity-wasm",
+ "scale-info",
+ "serde",
+ "sp-core-hashing-proc-macro 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-version-proc-macro 4.0.0-dev (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "thiserror",
 ]
 
@@ -7952,6 +8351,17 @@ dependencies = [
 name = "sp-version-proc-macro"
 version = "4.0.0-dev"
 source = "git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39#c960e55bf52d22c2fe929337b4752bbf7bc8dab5"
+dependencies = [
+ "parity-scale-codec",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.107",
+]
+
+[[package]]
+name = "sp-version-proc-macro"
+version = "4.0.0-dev"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
 dependencies = [
  "parity-scale-codec",
  "proc-macro2",
@@ -7968,7 +8378,21 @@ dependencies = [
  "impl-trait-for-tuples",
  "log",
  "parity-scale-codec",
- "sp-std",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "wasmi",
+ "wasmtime",
+]
+
+[[package]]
+name = "sp-wasm-interface"
+version = "7.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "anyhow",
+ "impl-trait-for-tuples",
+ "log",
+ "parity-scale-codec",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "wasmi",
  "wasmtime",
 ]
@@ -7982,10 +8406,25 @@ dependencies = [
  "scale-info",
  "serde",
  "smallvec",
- "sp-arithmetic",
- "sp-core",
- "sp-debug-derive",
- "sp-std",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-debug-derive 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+]
+
+[[package]]
+name = "sp-weights"
+version = "4.0.0"
+source = "git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39#8c4b84520cee2d7de53cc33cb67605ce4efefba8"
+dependencies = [
+ "parity-scale-codec",
+ "scale-info",
+ "serde",
+ "smallvec",
+ "sp-arithmetic 6.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-debug-derive 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-std 5.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -8149,11 +8588,11 @@ dependencies = [
  "parity-scale-codec",
  "sc-rpc-api",
  "sc-transaction-pool-api",
- "sp-api",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-block-builder",
- "sp-blockchain",
- "sp-core",
- "sp-runtime",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -8178,7 +8617,7 @@ dependencies = [
  "log",
  "sc-rpc-api",
  "serde",
- "sp-runtime",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -8215,10 +8654,10 @@ dependencies = [
  "pallet-subtensor",
  "parity-scale-codec",
  "serde",
- "sp-api",
- "sp-blockchain",
- "sp-rpc",
- "sp-runtime",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-blockchain 4.0.0-dev (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-rpc 6.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate?branch=polkadot-v0.9.39)",
  "subtensor-custom-rpc-runtime-api",
 ]
 
@@ -8229,7 +8668,7 @@ dependencies = [
  "frame-support",
  "pallet-subtensor",
  "serde",
- "sp-api",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
 ]
 
 [[package]]
@@ -8777,22 +9216,22 @@ dependencies = [
  "sc-service",
  "serde",
  "serde_json",
- "sp-api",
+ "sp-api 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-consensus-aura",
  "sp-consensus-babe",
- "sp-core",
- "sp-debug-derive",
- "sp-externalities",
- "sp-inherents",
- "sp-io",
- "sp-keystore",
- "sp-rpc",
- "sp-runtime",
- "sp-state-machine",
+ "sp-core 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-debug-derive 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-externalities 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-inherents 4.0.0-dev (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-io 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-keystore 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-rpc 6.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-runtime 7.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-state-machine 0.13.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "sp-timestamp",
  "sp-transaction-storage-proof",
- "sp-version",
- "sp-weights",
+ "sp-version 5.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
+ "sp-weights 4.0.0 (git+https://github.com/dogemus/substrate.git?branch=polkadot-v0.9.39)",
  "substrate-rpc-client",
  "zstd",
 ]
